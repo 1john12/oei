@@ -1,0 +1,57 @@
+baseurl = ""
+disqusShortname = ""
+enableRobotsTXT = true
+googleAnalytics = ""
+languageCode = "en-US"
+paginate = 6.0
+theme = "casper-two"
+title = "Gay Bar"
+
+[menu]
+
+  [[menu.main]]
+  name = "Main"
+  url = "/"
+  weight = 200.0
+
+  [[menu.main]]
+  name = "Projects"
+  url = "/tags/projects/"
+  weight = 100.0
+
+  [[menu.main]]
+  name = "Life"
+  url = "/categories/life/"
+  weight = 99.0
+
+  [[menu.main]]
+  name = "External"
+  url = "https://google.com/"
+  weight = 95.0
+
+[params]
+RSSLink = ""
+author = "JH"
+authorAvatar = "ghost-icon.png"
+authorDescription = "coding"
+authorLocation = "Assen, DR"
+authorWebsite = "https://eueung.github.io"
+cover = "storm.jpg"
+customCSS = []
+description = "cool"
+fbName = "fakeghost"
+githubName = "eueung"
+googleAnalytics = ""
+logo = ""
+metaDescription = ""
+orgDescription = "Here is a description placeholder for your org"
+orgName = "JH"
+orgWebsite = "https://www.telematika.org"
+pageNotFoundTitle = "404 - Page not found"
+singleViewStyle = "casper"
+subtitle = "super"
+title = "Gonna take you to a gay bar"
+twitterName = "faketryghost"
+
+[permalinks]
+post = "/:slug/"
